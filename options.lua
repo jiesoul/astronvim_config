@@ -2,13 +2,14 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = false, -- sets vim.opt.relativenumber
-    number = true, -- sets vim.opt.number
+    relativenumber = false, -- 相对行号
+    number = true, -- 绝对行号
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = true, -- sets vim.opt.wrap
     -- showtabline = 0,    -- sets vim.opt.showtabline - zero hides tabs
     timeoutlen = 420,
+    cursorline = true,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

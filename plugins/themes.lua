@@ -33,4 +33,15 @@ return {
     "projekt0n/github-nvim-theme",
     lazy = false,
   },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" }, -- no background support
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+  },
+  { import = "astrocommunity.colorscheme.sonokai" }, -- no background support
+  {
+    "sainnhe/sonokai",
+    lazy = false,
+    init = function() vim.g.sonokai_style = "shusia" end,
+  },
 }
